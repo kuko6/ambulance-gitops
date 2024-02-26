@@ -12,4 +12,4 @@ resources:
 - ../../../apps/japo-ambulance-ufe
 
 components:
- - ../../../components/version-developers
+- ../../../components/version-developers
