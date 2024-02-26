@@ -10,4 +10,6 @@ commonLabels:
 
 resources:
 - ../../../apps/japo-ambulance-ufe
-- ../../../components/version-developers
+
+components:
+ - ../../../components/version-developers
