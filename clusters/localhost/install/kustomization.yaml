@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/japo-ambulance-ufe
+- ../../../apps/japo-ambulance-webapi
 
 components:
 - ../../../components/version-developers
+- https://github.com/kuko6/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
