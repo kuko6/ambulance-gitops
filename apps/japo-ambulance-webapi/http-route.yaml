@@ -3,12 +3,12 @@ kind: HTTPRoute
 metadata:
   name: japo-ambulance-webapi
 spec:
- parentRefs:
+  parentRefs:
   - name: wac-hospital-gateway
     namespace: wac-hospital
   - name: wac-hospital-gateway  # Hack to make it work for common cluster
     namespace: wac-hospital-system
- rules:
+  rules:
     - matches:
         - path:
           type: PathPrefix
@@ -24,6 +24,7 @@ spec:
           kind: Service
           name: japo-ambulance-webapi
           port: 80
+    
     - matches:
         - path:
             type: PathPrefix
@@ -33,6 +34,7 @@ spec:
           kind: Service
           name: japo-openapi-ui
           port: 80
+    
     - matches:
         - path:
             type: Exact
