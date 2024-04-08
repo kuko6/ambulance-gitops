@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: kuko6/ambulance-ufe
   newName: kuko6/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: kuko6/ambulance-wl-webapi
+  newName: kuko6/ambulance-wl-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:

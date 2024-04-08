@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/japo-ambulance-ufe
+ - ../../../apps/japo-ambulance-webapi
 
 
 components:
