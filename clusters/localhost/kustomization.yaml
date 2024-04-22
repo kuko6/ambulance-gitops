@@ -8,4 +8,4 @@ commonLabels:
   app.kubernetes.io/version: "0.1"
 
 resources:
-   - gitops
+  - gitops
