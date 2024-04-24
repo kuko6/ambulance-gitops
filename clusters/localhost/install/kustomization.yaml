@@ -12,6 +12,7 @@ resources:
 - ../../../apps/japo-ambulance-ufe
 - ../../../apps/japo-ambulance-webapi
 - ../../../apps/mongo-express
+- ../../../apps/http-echo
 
 components:
 - ../../../components/version-developers
