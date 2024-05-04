@@ -17,4 +17,4 @@ spec:
   values:
     prometheus-node-exporter:
       hostRootFsMount:
-        mountPropagation: true # required on docker-desktop kluster 
+        mountPropagation: false # required on docker-desktop kluster 
