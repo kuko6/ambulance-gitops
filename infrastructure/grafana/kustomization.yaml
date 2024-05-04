@@ -5,16 +5,15 @@ namespace: wac-hospital
 
 commonLabels:
   app.kubernetes.io/component: grafana
-
+  
 resources:
 - deployment.yaml
 - pvc.yaml
 - service.yaml
 
-
 configMapGenerator:
   - name: grafana-config
-    files:
+    files: 
     - params/grafana.ini
   - name: grafana-datasources
     files:
